@@ -1,0 +1,38 @@
+{
+    "manufacturer": "NadieNiemand",
+    "keyboard_name": "piu_red",
+    "maintainer": "NadieNiemand",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "rows": ["GP12", "GP13", "GP14", "GP15", "GP16", "GP21"],
+        "cols": ["GP7"]
+    },
+    "processor": "RP2040",
+    "url": "https://github.com/NadieNiemand/PIUred-controller",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0002",
+        "vid": "0x4C42"
+    },
+    "layouts": {
+        "LAYOUT_ortho_4x4": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [1, 0], "x": 2, "y": 0 },
+                { "matrix": [2, 0], "x": 1, "y": 1 },
+                { "matrix": [3, 0], "x": 0, "y": 2 },
+                { "matrix": [4, 0], "x": 2, "y": 2 },
+                { "matrix": [5, 0], "x": 0, "y": 3 }
+            ]
+        }
+    }
+}
