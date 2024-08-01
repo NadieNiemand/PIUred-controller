@@ -1,3 +1,6 @@
+# Description
+A controller for PIU.red, Pump it up is best played with the legs but with fingers its a lot of fun.
+
 # Instructions.
 ## Components
 You will need:
